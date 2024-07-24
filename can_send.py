@@ -2,8 +2,8 @@
 #
 from ctypes import *
 import ctypes
-
 import exe
+import threading
 
 VCI_USBCAN2 = 4
 STATUS_OK = 1
@@ -63,7 +63,7 @@ def CanSend():
 
     # 初始0通道
     vci_initconfig = VCI_INIT_CONFIG(0x80000008, 0xFFFFFFFF, 0,
-                                     0, 0x04, 0x1C, 0)  # 波特率125k，正常模式
+                                     0, 0x04, 0x1C, 0)  # 波特率100k，正常模式
     ret = canDLL.VCI_InitCAN(VCI_USBCAN2, 0, 0, byref(vci_initconfig))
     if ret == STATUS_OK:
         exe.LogOut('调用 VCI_InitCAN1成功')
@@ -118,8 +118,7 @@ def CanSend():
 
     # print(ret)
 
-
-def CanReceive():
+def CanReceive_cycle():
     while 1:  # 一直循环查询接收。
         ret = canDLL.VCI_Receive(VCI_USBCAN2, 0, 0, byref(rx_vci_can_obj.ADDR), 2500, 0)
         if ret > 0:  # 接收到数据
@@ -144,6 +143,11 @@ def CanReceive():
                 print('Data：', end="")
                 print(list(rx_vci_can_obj.STRUCT_ARRAY[i].Data), end=" ")
                 print('\r')
+def CanReceive():
+    can_receive = threading.Thread(target=CanReceive_cycle)
+    can_receive.start()
+
+
 # def CanClose(can_close):
 # # 关闭
 #     canDLL.VCI_CloseDevice(VCI_USBCAN2, 0)

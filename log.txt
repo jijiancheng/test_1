@@ -51,3 +51,83 @@ CAN1通道发送成功
 调用 VCI_InitCAN2 成功
 调用 VCI_StartCAN2 成功
 CAN1通道发送成功
+连接失败
+串口连接断开
+调用 VCI_OpenDevice出错
+调用 VCI_InitCAN1出错
+调用 VCI_StartCAN1出错
+调用 VCI_InitCAN2 出错
+调用 VCI_StartCAN2 出错
+调用 VCI_OpenDevice出错
+调用 VCI_InitCAN1出错
+调用 VCI_StartCAN1出错
+调用 VCI_InitCAN2 出错
+调用 VCI_StartCAN2 出错
+调用 VCI_OpenDevice出错
+调用 VCI_InitCAN1出错
+调用 VCI_StartCAN1出错
+调用 VCI_InitCAN2 出错
+调用 VCI_StartCAN2 出错
+调用 VCI_OpenDevice出错
+调用 VCI_InitCAN1出错
+调用 VCI_StartCAN1出错
+调用 VCI_InitCAN2 出错
+调用 VCI_StartCAN2 出错
+连接失败
+串口连接断开
+调用 VCI_OpenDevice成功
+调用 VCI_InitCAN1成功
+调用 VCI_StartCAN1成功
+调用 VCI_InitCAN2 成功
+调用 VCI_StartCAN2 成功
+CAN1通道发送成功
+调用 VCI_OpenDevice成功
+调用 VCI_InitCAN1成功
+调用 VCI_StartCAN1成功
+调用 VCI_InitCAN2 成功
+调用 VCI_StartCAN2 成功
+CAN1通道发送成功
+调用 VCI_OpenDevice成功
+调用 VCI_InitCAN1成功
+调用 VCI_StartCAN1成功
+调用 VCI_InitCAN2 成功
+调用 VCI_StartCAN2 成功
+CAN1通道发送成功
+调用 VCI_OpenDevice成功
+调用 VCI_InitCAN1成功
+调用 VCI_StartCAN1成功
+调用 VCI_InitCAN2 成功
+调用 VCI_StartCAN2 成功
+CAN1通道发送成功
+调用 VCI_OpenDevice成功
+调用 VCI_InitCAN1成功
+调用 VCI_StartCAN1成功
+调用 VCI_InitCAN2 成功
+调用 VCI_StartCAN2 成功
+CAN1通道发送成功
+连接失败
+串口连接断开
+调用 VCI_OpenDevice成功
+调用 VCI_InitCAN1成功
+调用 VCI_StartCAN1成功
+调用 VCI_InitCAN2 成功
+调用 VCI_StartCAN2 成功
+CAN1通道发送成功
+调用 VCI_OpenDevice成功
+调用 VCI_InitCAN1成功
+调用 VCI_StartCAN1成功
+调用 VCI_InitCAN2 成功
+调用 VCI_StartCAN2 成功
+CAN1通道发送成功
+调用 VCI_OpenDevice成功
+调用 VCI_InitCAN1成功
+调用 VCI_StartCAN1成功
+调用 VCI_InitCAN2 成功
+调用 VCI_StartCAN2 成功
+CAN1通道发送成功
+调用 VCI_OpenDevice成功
+调用 VCI_InitCAN1成功
+调用 VCI_StartCAN1成功
+调用 VCI_InitCAN2 成功
+调用 VCI_StartCAN2 成功
+CAN1通道发送成功
